@@ -581,5 +581,23 @@
     "capacity": 8,
     "flags": [ "MAG_COMPACT" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9mm": 8 } } ]
+  },
+  {
+  "id": "hipoint_mag",
+  "looks_like": "glock17_17",
+  "type": "MAGAZINE",
+  "name": { "str": "Hi-Point 9mm carbine magazine" },
+  "description": "A 10 round 9x19mm Hi-Point carbine magazine.",
+  "weight": "186 g",
+  "volume": "73 ml",
+  "price": 2000,
+  "price_postapoc": 75,
+  "material": "steel",
+  "symbol": "#",
+  "color": "light_gray",
+  "ammo_type": [ "9mm" ],
+  "capacity": 10,
+  "flags": [ "MAG_COMPACT" ],
+  "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9mm": 10 } } ]
   }
 ]

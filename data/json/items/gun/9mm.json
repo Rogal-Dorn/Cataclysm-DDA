@@ -425,6 +425,53 @@
     ]
   },
   {
+   "id": "hp_995",
+   "looks_like": "ksub2000",
+   "type": "GUN",
+   "name": { "str_sp": "Hi-Point 995" },
+   "description": "Designed during the AWB era, this low cost carbine remained mildly popular due to its acceptable functionality.",
+   "longest_side": "812 mm",
+   "weight": "3175 g",
+   "volume": "4846 ml",
+   "to_hit": -1,
+   "bashing": 8,
+   "material": [ "steel", "plastic" ],
+   "symbol": "(",
+   "color": "dark_gray",
+   "ammo": [ "9mm" ],
+   "skill": "rifle",
+   "range": 18,
+   "ranged_damage": { "damage_type": "bullet", "amount": 3 },
+   "dispersion": 180,
+   "durability": 7,
+   "min_cycle_recoil": 450,
+   "barrel_volume": "250 ml",
+   "valid_mod_locations": [
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 3 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+   "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
+   "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "hipoint_mag" ]
+      }
+    ]
+  },
+  {
     "id": "m9",
     "copy-from": "pistol_base",
     "looks_like": "glock_17",
