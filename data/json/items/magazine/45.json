@@ -197,5 +197,43 @@
     "capacity": 9,
     "flags": [ "MAG_COMPACT" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "45": 9 } } ]
+  },
+  {
+    "id": "glock_21mag",
+	"looks_like": "glock17_17",
+	"type": "MAGAZINE",
+    "name": { "str": "Glock 21 magazine" },
+    "description": "A compact light-weight steel and polymer magazine for use with Glock pistols chambered for .45 ACP.",
+    "weight": "70 g",
+    "volume": "103 ml",
+    "longest_side": "114 mm",
+    "price": 2400,
+    "price_postapoc": 100,
+    "material": [ "plastic", "steel" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "45" ],
+    "capacity": 13,
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "45": 13 } } ]
+  },
+  {
+    "id": "glock_21_26",
+	"looks_like": "glock17_17",
+	"type": "MAGAZINE",
+    "name": { "str": "Glock 21/30/41 extended magazine" },
+    "description": "An extended 26-round polymer magazine for use with .45 Glock compatible firearms.",
+    "weight": "210 g",
+    "volume": "500 ml",
+    "price": 4700,
+    "price_postapoc": 500,
+    "material": [ "plastic" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "45" ],
+    "capacity": 26,
+    "reload_time": 140,
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "45": 26 } } ]
   }
 ]

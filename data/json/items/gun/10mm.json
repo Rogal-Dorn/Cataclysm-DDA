@@ -1,5 +1,25 @@
 [
   {
+  "id": "cmmg_mk10",
+  "copy-from": "cmmg_mkgs",
+  "looks_like": "ar15",
+  "type": "GUN",
+  "name": { "str": "CMMG Banshee Mk10, 10mm" },
+  "description": "Legally a pistol, this pistol caliber carbine is an AR15 platform weapon with a proprietary radial delayed blowback system that noticably reduces felt recoil. It is chambered in 10mm and accepts glock magazines.",
+  "ammo": [ "10mm", "40" ],
+  "min_cycle_recoil": 380,
+  "pocket_data": [
+	 {
+	  "magazine_well": "103 ml",
+	  "pocket_type": "MAGAZINE_WELL",
+	  "holster": true,
+	  "max_contains_volume": "20 L",
+	  "max_contains_weight": "20 kg",
+	  "item_restriction": [ "glock_20mag", "tdi_10mm_mag" ]
+	 }
+	]
+  },
+  {
     "id": "sw_610",
     "copy-from": "pistol_revolver",
     "looks_like": "sw_619",

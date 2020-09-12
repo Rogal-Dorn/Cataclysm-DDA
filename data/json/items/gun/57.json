@@ -1,5 +1,26 @@
 [
   {
+  "id": "cmmg_mk57",
+  "copy-from": "cmmg_mkgs",
+  "looks_like": "ar15",
+  "type": "GUN",
+  "name": { "str": "CMMG Banshee Mk57, 5.7x28mm" },
+  "//": "With a standard lower takes 40 round CMMG magazines that fit in STANAG magwells but aren't converted from STANAG mags.",
+  "description": "Legally a pistol, this pistol caliber carbine is an AR15 platform weapon with a proprietary radial delayed blowback system that noticably reduces felt recoil. It is chambered in 5.7x28mm and uses standard five-seven magazines. Can use a standard AR15 lower to accept proprietary magazines.",
+  "ammo": [ "57" ],
+  "min_cycle_recoil": 81,
+  "pocket_data": [
+   {
+     "magazine_well": "250 ml",
+     "pocket_type": "MAGAZINE_WELL",
+     "holster": true,
+     "max_contains_volume": "20 L",
+     "max_contains_weight": "20 kg",
+     "item_restriction": [ "fn57mag" ]
+    }
+   ]
+  },
+  {
     "id": "fn57",
     "looks_like": "glock_17",
     "type": "GUN",

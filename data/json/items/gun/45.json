@@ -1,5 +1,26 @@
 [
   {
+  "id": "cmmg_mkg45",
+  "copy-from": "cmmg_mkgs",
+  "looks_like": "ar15",
+  "type": "GUN",
+  "name": { "str": "CMMG Banshee MkG, .45" },
+  "description": "Legally a pistol, this pistol caliber carbine is an AR15 platform weapon with a proprietary radial delayed blowback system that noticably reduces felt recoil. It is chambered in .45 ACP and accepts glock magazines.",
+  "ammo": [ "45" ],
+  "min_cycle_recoil": 540,
+  "range": 18,
+  "pocket_data": [
+	 {
+	  "magazine_well": "103 ml",
+	  "pocket_type": "MAGAZINE_WELL",
+	  "holster": true,
+	  "max_contains_volume": "20 L",
+	  "max_contains_weight": "20 kg",
+	  "item_restriction": [ "glock_21mag", "glock_21_26" ]
+	 }
+	]
+  },
+  {
     "id": "TDI",
     "looks_like": "hk_mp5",
     "type": "GUN",
@@ -456,5 +477,79 @@
         "item_restriction": [ "hptjhpmag" ]
       }
     ]
+  },
+  {
+    "id": "glock_21",
+    "copy-from": "pistol_base",
+    "looks_like": "glock_17",
+    "type": "GUN",
+    "name": { "str": "Glock 21" },
+    "description": "A full-sized Glock chambered in .45 ACP.",
+    "weight": "780 g",
+    "volume": "480 ml",
+    "longest_side": "205 mm",
+    "price": 59200,
+    "price_postapoc": 2500,
+    "to_hit": -2,
+    "bashing": 8,
+    "material": [ "plastic", "steel" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "45",
+    "ranged_damage": { "damage_type": "bullet", "amount": -6 },
+    "dispersion": 480,
+    "durability": 8,
+    "blackpowder_tolerance": 48,
+    "min_cycle_recoil": 540,
+    "pocket_data": [
+      {
+        "magazine_well": "103 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "glock_21mag", "glock_21_26" ]
+      }
+    ]
+  },
+  {
+    "id": "pa45",
+	"copy-from": "ar15",
+	"looks_like": "ar15",
+	"type": "GUN",
+	"name": { "str_sp": "Palmetto State Armoury PA-45" },
+	"description": "An AR-15 chambered in .45 ACP with a nonstandard magwell that fits glock magazines.",
+    "material": [ "aluminum", "plastic" ],
+	"ammo": [ "45" ],
+	"range": 18,
+	"ranged_damage": { "damage_type": "bullet", "amount": 3 },
+	"dispersion": 180,
+	"min_cycle_recoil": 540,
+    "valid_mod_locations": [
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+	  [ "rail mount", 2 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "glock_21mag", "glock_21_26" ]
+      }
+    ]
+
   }
 ]

@@ -1,5 +1,24 @@
 [
   {
+  "id": "cmmg_rdb",
+  "type": "GUNMOD",
+  "name": { "str": "radial delayed blowback"},
+  "description": "CMMG's proprietary radial delayed blowback operation system",
+  "weight": "1 g",
+  "volume": "1 ml",
+  "integral_weight": "0 g",
+  "integral_volume": "0 ml",
+  "price": 1,
+  "price_postapoc": 1,
+  "material": [ "steel" ],
+  "symbol": ":",
+  "location": "mechanism",
+  "mod_targets": "cmmg_mkgs",
+  "install_time": "1 m",
+  "color": "dark_gray",
+  "handling_modifier": 2
+  },
+  {
     "id": "match_trigger",
     "type": "GUNMOD",
     "name": { "str": "match trigger" },
